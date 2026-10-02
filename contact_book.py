@@ -105,7 +105,7 @@ tk.Button(window, text="Add Contact", command=add_contact).pack(pady=5)
 tk.Button(window, text="Search Contact", command=search_contact).pack(pady=5)
 tk.Button(window, text="Delete Selected Contact", command=delete_contact).pack(pady=5)
 
-# Contact list
+# Contact lists
 tk.Label(window, text="Saved Contacts").pack(pady=10)
 
 contact_list = tk.Listbox(window, width=45, height=10)
